@@ -10,4 +10,8 @@
 
 @interface WavyCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic) IBOutlet UILabel *label;
+
+// figure out how to add label programatically later
+
 @end
