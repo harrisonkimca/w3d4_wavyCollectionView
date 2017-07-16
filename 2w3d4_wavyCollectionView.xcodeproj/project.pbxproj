@@ -14,6 +14,8 @@
 		88D836421F1BD1060040AB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D836411F1BD1060040AB52 /* Assets.xcassets */; };
 		88D836451F1BD1060040AB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D836431F1BD1060040AB52 /* LaunchScreen.storyboard */; };
 		88D836501F1BD1070040AB52 /* _w3d4_wavyCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8364F1F1BD1070040AB52 /* _w3d4_wavyCollectionViewTests.m */; };
+		88D8365C1F1BD1240040AB52 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8365B1F1BD1240040AB52 /* WavyFlowLayout.m */; };
+		88D8365F1F1BD1390040AB52 /* WavyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8365E1F1BD1390040AB52 /* WavyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		88D8364B1F1BD1070040AB52 /* 2w3d4_wavyCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2w3d4_wavyCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D8364F1F1BD1070040AB52 /* _w3d4_wavyCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w3d4_wavyCollectionViewTests.m; sourceTree = "<group>"; };
 		88D836511F1BD1070040AB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D8365A1F1BD1240040AB52 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		88D8365B1F1BD1240040AB52 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
+		88D8365D1F1BD1390040AB52 /* WavyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyCollectionViewCell.h; sourceTree = "<group>"; };
+		88D8365E1F1BD1390040AB52 /* WavyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 		88D836291F1BD1060040AB52 = {
 			isa = PBXGroup;
 			children = (
+				88D8365A1F1BD1240040AB52 /* WavyFlowLayout.h */,
+				88D8365B1F1BD1240040AB52 /* WavyFlowLayout.m */,
+				88D8365D1F1BD1390040AB52 /* WavyCollectionViewCell.h */,
+				88D8365E1F1BD1390040AB52 /* WavyCollectionViewCell.m */,
 				88D836341F1BD1060040AB52 /* 2w3d4_wavyCollectionView */,
 				88D8364E1F1BD1070040AB52 /* 2w3d4_wavyCollectionViewTests */,
 				88D836331F1BD1060040AB52 /* Products */,
@@ -213,9 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8365C1F1BD1240040AB52 /* WavyFlowLayout.m in Sources */,
 				88D8363D1F1BD1060040AB52 /* ViewController.m in Sources */,
 				88D8363A1F1BD1060040AB52 /* AppDelegate.m in Sources */,
 				88D836371F1BD1060040AB52 /* main.m in Sources */,
+				88D8365F1F1BD1390040AB52 /* WavyCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
